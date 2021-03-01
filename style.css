@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    font-size: 18px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  nav {
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  .seytech {
+    float: left;
+    margin-left: 20px;
+  }
+  .btn1 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    float: right;
+    vertical-align: top;
+    cursor: pointer;
+  }
+  .btn1:hover {
+    background-color: #176cc7;
+  }
+  .clr {
+    clear: both;
+  }
+  header {
+    background-image: url(https://p0.piqsels.com/preview/455/421/259/blue-simple-fog-misty.jpg);
+    /* height: 400px; */
+    background-size: cover;
+    padding: 120px;
+  }
+  .content {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    color: #fff;
+  }
+  .inp,
+  .btn2 {
+    padding: 14px 18px;
+    border-radius: 6px;
+    border: none;
+  }
+  .inp {
+    width: 30%;
+    color: rgb(209, 205, 205);
+  }
+  .btn2 {
+    width: 10%;
+    color: white;
+    background-color: #007bff;
+  }
+  .btn2:hover{
+    background-color: #156dca;
+  }
+  
+  .container-one,
+  .container-five {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .first-icon,
+  .second-icon,
+  .third-icon {
+    width: 25%;
+    padding: 0px 0px 8px;
+    margin: auto;
+  }
+  
+  .fas,
+  .far {
+    font-size: 70px;
+    color: #007bff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  h3 {
+    margin: 0px 0px 8px;
+    text-align: center;
+  }
+  .text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    font-weight: lighter;
+  }
+  
+  .container-two,
+  .container-three,
+  .container-four {
+    width: 100%;
+    display: flex;
+  
+    /* flex-direction: wrap; */
+  }
+  .left-side,
+  .right-side2 {
+    padding: 170px;
+    width: 51%;
+  }
+  
+  .right-side {
+    width: 50%;
+  }
+  
+  .right-side,
+  .left-side1 {
+    width: 51%;
+  }
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 5px 5px 0 #adb5bd;
+  }
+  h2 {
+    text-align: center;
+  }
+  .container-five {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .first,
+  .second,
+  .third {
+    text-align: center;
+    width: 25%;
+  }
+  .container-six {
+    background-image: url(https://p0.piqsels.com/preview/455/421/259/blue-simple-fog-misty.jpg);
+    background-size: cover;
+    padding: 70px;
+  }
+  .list {
+    list-style: dot;
+    padding-left: 0;
+    display: inline-block;
+    padding-right: 30px;
+  }
+  a {
+    text-decoration: none;
+    color: #007bff;
+    background-color: transparent;
+  }
+  footer {
+    padding: 60px 15px;
+  }
+  
+  .rights {
+    color: #7a7a7a;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  .fab {
+    text-align: center;
+    width: 40px;
+  }
+  .container-footer {
+    padding-right: 0;
+  }
+  .two {
+    padding-left: 400px;
+  }
+  @media screen and (max-width: 768px) {
+    .inp {
+      width: 100%;
+    }
+    .text {
+      width: 100%;
+    }
+    .btn2 {
+      float: none;
+      width: 100%;
+    }
+    .first-icon,
+    .second-icon,
+    .third-icon {
+      width: 100%;
+    }
+    .container-two,
+    .container-three,
+    .container-four,
+    .container-five {
+      display: block;
+    }
+    .left-side,
+    .right-side2 {
+      padding: 0;
+    }
+    .left-side,
+    .right-side,
+    .left-side1,
+    .right-side2 {
+      width: 100%;
+    }
+    .container-five {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 18rem;
+    }
+    h5{
+      text-align: center;
+    }
+    .first,
+  .second,
+  .third {
+    width: 100%;
+  }
+  .container-footer{
+    display: block;
+    
+  }
+  .two{
+    padding-left: 0;
+  }
+  .row{
+    text-align: center;
+  }
+  .list{
+    padding-right: 0;
+  }
+  }
+  
